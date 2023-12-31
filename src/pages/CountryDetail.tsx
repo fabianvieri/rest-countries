@@ -17,8 +17,6 @@ export default function CountryDetail() {
 
 	const country = data[0];
 
-	console.log(country);
-
 	const nativeNames = getDynamicProps(country.name, 'nativeName');
 	const languages = getDynamicProps(country, 'languages')
 		.map((l) => country.languages[l])
