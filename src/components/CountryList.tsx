@@ -39,7 +39,7 @@ export default function CountryList() {
 
 	if (filteredData.length === 0)
 		return (
-			<Text as="p" mt="4" color="bronze" weight="bold">
+			<Text as="p" mt="4" color="crimson">
 				No country found
 			</Text>
 		);

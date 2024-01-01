@@ -13,7 +13,7 @@ export default function CountryDetail() {
 	const params = useParams();
 	const { data } = useQuery(countryDetailQuery(params.id ?? ''));
 
-	if (!data) return <NotFound />;
+	if (!data) return <NotFound message="Country Not Found" />;
 
 	const country = data[0];
 
