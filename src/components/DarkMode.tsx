@@ -13,6 +13,7 @@ export default function DarkMode({ darkMode, setDarkMode }: Props) {
 			gap="2"
 			align="center"
 			className="cursor-pointer hover:opacity-80"
+			data-testid="dark-text"
 		>
 			{darkMode ? <Sun size={18} /> : <Moon size={18} />}
 			<Text weight="bold">{darkMode ? 'Light' : 'Dark'} Mode</Text>

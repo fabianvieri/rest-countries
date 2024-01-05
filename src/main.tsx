@@ -25,7 +25,7 @@ export const client = new QueryClient({
 	},
 });
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <RootLayout />,
