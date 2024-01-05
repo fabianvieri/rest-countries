@@ -6,7 +6,7 @@ import Header from '../components/Header';
 export default function RootLayout() {
 	return (
 		<Flex direction="column" className="min-h-dvh">
-			<Box className="transition-colors bg-white shadow-2xl dark:bg-dark">
+			<Box className="bg-white shadow-2xl dark:bg-dark">
 				<Container className="p-4 ">
 					<Header />
 				</Container>
